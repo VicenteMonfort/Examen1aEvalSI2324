@@ -1,0 +1,4 @@
+3.- cat Alumnos.txt | grep -n SI | awk '{print $1}' | awk -F:  '{print $1}' > SI.txt
+5.- mv SI.txt ./si
+6.- cat Alumnos.txt | awk '{print $1 " " $2 "-" $5}'
+7.- cat Alumnos.txt | grep González | awk '{print $1 $2}' | uniq | wc -l
