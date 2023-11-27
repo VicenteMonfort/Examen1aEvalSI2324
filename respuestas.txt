@@ -5,3 +5,4 @@
 8.- sed -i 's/Vicente/Pepe/g' ../../Alumnos.txt
 9.- grep 201[0123456789] ../../Alumnos.txt
 10.- awk '{print $1" "$2}' ../../Alumnos.txt | uniq | grep ^J
+11.- sed 's/M/000000/' ../../du.txt | sed 's/K/000/' | sort -n | tail -3 | awk '{print $2}'
