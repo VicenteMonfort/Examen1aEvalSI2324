@@ -4,3 +4,4 @@
 7.- cat Alumnos.txt | grep González | awk '{print $1 $2}' | uniq | wc -l
 8.- sed -i 's/Vicente/Pepe/g' ../../Alumnos.txt
 9.- grep 201[0123456789] ../../Alumnos.txt
+10.- awk '{print $1" "$2}' ../../Alumnos.txt | uniq | grep ^J
